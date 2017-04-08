@@ -26,6 +26,6 @@ public class NotifyServiceTest {
 		//Act
 		String message = notifyPersonService.notify(person);
 		//Assert
-		Assert.assertNotNull(null);
+		Assert.assertNotNull(message);
 	}
 }
